@@ -11,28 +11,17 @@ body {
 header{
     border: 2px;
     border-color: black;
-    display: flex;
-    flex-direction: row;
+     
 }
-.navbar{
-    
 
-    background-color: solid gray;
-    position: fixed;
-    padding: 0px;
-    margin: 0px;
-    list-style-type: none;
-
-}
-li{
+ul,li {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items:center;
     padding: 10px;
-    flex-direction: row;
-    justify-content:center;
-
+    text-decoration-style: none;
+    
 }
 h1 {
     text-align: center;
