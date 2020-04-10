@@ -38,12 +38,16 @@ li {
 }
 
   a {
-    color:white;
+    color: turquoise;
     font-size: 25px;
     text-decoration: none;
     padding: 10px;
 }
-h1 {
+    a:hover {
+    transform: scale(1.02) translateY(-4px);
+    color: blue;
+  }
+/* h1 {
     font-size: 30px;
     font-family:sans-serif;
     margin-top: 25px ;
@@ -51,19 +55,17 @@ h1 {
     color:black;
     font-weight: lighter;
     font-style: italic;
-   
-}
+    text-align:center;
+    
+} */
 .container {
     display: grid;
-    grid-template-rows: 100px 100px 100px;
-    grid-template-columns: 500px;
+    grid-template-rows: 100px 100px 100p;
+    grid-template-columns: 500px 200px;
     justify-content: center;
-    margin-top: 110px;
+    margin-top: 130px;
 }
- h1{
-     text-align: center;
-    
- }
+ 
 .my_image {
     grid-row: 1;
     grid-column: 1;
@@ -74,21 +76,20 @@ h1 {
    
 }
 .my_links {
-    grid-column: 2;
-    display: grid;
-    grid-template-rows: 75px 75px 75px;
-    row-gap: 15px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
 }  
  .button {
-    margin-top:30px;
-    padding:20px;
-    border: 2px  gainsboro;
+    /* margin-top:30px; */
+    /* padding:20px; */
     border-radius: 40px;
-    width:165px;
-   /* background-color:  rgb(12, 239, 247);*/
+    width:140px;
     background-color: gray;
     text-align: center;
-    padding: 5px;
     color: turquoise;
     font-family: "Montserrat", "Quicksand", sans-serif;
     letter-spacing: 0.1em;
@@ -102,37 +103,29 @@ h1 {
     font-weight: 500;
   }
 
-
-
-/* .button {
-
-    background-color:#fff;
-    border-radius: 290486px;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-    color: #9013fe;
-    display: inline-block;
-    font-size: 0.8rem;
-    line-height: 1;
-    padding: 1.2em 2em;
-    text-shadow: none;
-    transition-property: box-shadow, transform;
-    user-select: none;
-    vertical-align: top;
-    white-space: nowrap;
-    will-change: box-shadow, transform;
-  } */
   .button:hover {
     box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
     transform: scale(1.02) translateY(-4px);
     color: blue;
   }
   
-.button:active {
+    .button:active {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
     transform: scale(0.98) translateY(-2px);
   }
+
+ .popup{
+    font-family: arial;
+    text-align: center;
+    width:100%;
+    max-width: 400px;
+    margin:10% auto;
+    padding: 20px;
+    background: #fff;
+    position: relative;
+} 
   
-.my_footer{
+/* .my_footer{
     position: absolute;
     bottom:-20px;
     display:flex;
@@ -145,5 +138,5 @@ h1 {
 .my_footer a {
     padding:30px;
 }
-
+ */
 

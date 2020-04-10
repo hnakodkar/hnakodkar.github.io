@@ -28,14 +28,13 @@
     box-sizing: border-box; 
     height: 20em;
     margin: .7em; 
-
     position: relative; 
     width: 26em;
     box-shadow: 0 2rem 2rem rgba(0,0,0,0.3);
     color: black; 
     display: flex;    
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px;
 }
