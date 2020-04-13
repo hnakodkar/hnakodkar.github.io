@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+   
+}
+body{
+    /* background-image: url("https://wallpaperset.com/w/full/3/0/3/36698.jpg" );*/
+    background-image: url("https://www.visittci.com/core/cover-governors-beach-grand-turk-on-a-calm-day_1024x341.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-position: fixed; 
+
+}
+
+.my_page{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+   
+}
+.welcome-img{
+    display:block;
+    cursor: pointer;
+    margin: 0px auto;
+}
+.popup-wrapper {
+    background: rgba(0,0,0,0.5);
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    left:0;
+    width:100%;
+    height:100%;
+    display: none;
+}  
+.bio-popup{
+    font-family: "Montserrat", "Quicksand", sans-serif;
+    text-align: left;
+    width:100%;
+    max-width:35em;
+    height:27em;
+    box-sizing: border-box;
+    margin:10% auto;
+    padding: 20px;
+    background: #fff;
+    position: relative; 
+    border: 2px solid turquoise;
+    border-radius:10px;
+    
+    
+} 
+.popup-content{
+    font-size: 15px;;
+    margin-top:10px ;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 1.5em;
+    
+}
+.myContact{
+    margin-top:15px;
+    text-align: center;
+    font-size: 15px;
+    color:black;
+}
+.skillsPopup-close{
+    font-size: 20px;
+    position: absolute;
+    top:5px;
+    right:10px;
+    cursor: pointer;
+
+}
+ a {
+    font-family: "Montserrat", "Quicksand", sans-serif;
+    color: turquoise;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+    a:hover {
+    transform: scale(1.02) translateY(-4px);
+    color: blue;
+  }
+
+.container {
+    display: grid;
+    grid-template-rows: 300px ;
+    grid-template-columns: 500px 200px;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 130px;
+}
+ 
+.my_image {
+    grid-row: 1;
+    grid-column: 1;
+    border:1px gray;
+    border-radius: 150px ;
+    cursor: pointer;
+}
+h3{
+    font-family: "Montserrat", "Quicksand", sans-serif;
+    margin-left:25%;
+    cursor: pointer;
+}
+h3:hover {
+    transform: scale(1.02) translateY(-4px);
+    color: blue;
+  }
+.my_links {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}  
+ .button {
+    margin-top: 15px;
+    border-radius: 40px;
+    width:130px;
+    background-color: gray;
+    text-align: center;
+    color: turquoise;
+    font-family: "Montserrat", "Quicksand", sans-serif;
+    letter-spacing: 0.1em;
+    transition-property: box-shadow, transform;
+    user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    /* will-change: box-shadow, transform; */
+    transform-origin: center; 
+    transition-duration: 100ms;
+    font-weight: 500; 
+  }
+
+  .button:hover {
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+    transform: scale(1.02) translateY(-4px);
+    color: blue;
+  }
+    .button:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    transform: scale(0.98) translateY(-2px);
+  }
+ 
+.social-media{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.social_links{
+    padding:3px;
+    
+}
+  
+
