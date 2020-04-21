@@ -8,8 +8,6 @@
     background-size: cover;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
-
 } 
 
  .popup-close{
@@ -22,7 +20,6 @@
 .project-box {
     background-color: #fff;
     position: relative; 
-    /* text-align: center;  */
     border: 2px solid turquoise;
     border-radius: .5em;
     box-sizing: border-box; 
