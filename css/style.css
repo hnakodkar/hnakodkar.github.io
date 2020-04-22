@@ -41,7 +41,8 @@ body {
     max-width:35em;
     height:27em;
     box-sizing: border-box;
-    margin:10% auto;
+    margin-top: 10%;
+    margin-left:50%;
     padding: 20px;
     background: #fff;
     position: relative; 
@@ -81,7 +82,8 @@ body {
     text-decoration: none;
     padding: 10px;
 }
-    a:hover {
+
+a:hover {
     transform: scale(1.02) translateY(-4px);
     color: blue;
 }
@@ -156,6 +158,7 @@ body {
 h3 {
     font-family: "Montserrat", "Quicksand", sans-serif;
     margin-left:21%;
+    margin-top:5px;
     cursor: pointer;
 }
 
