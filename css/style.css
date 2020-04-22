@@ -2,17 +2,15 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-
-   
 }
-body{
-    /* background-image: url("https://wallpaperset.com/w/full/3/0/3/36698.jpg" );*/
-    background-image: url("https://www.visittci.com/core/cover-governors-beach-grand-turk-on-a-calm-day_1024x341.jpg");
+
+body {
+    background-image: url("https://i.pinimg.com/originals/87/28/a8/8728a856405bcc20f320539173a1f05a.gif");
     background-repeat: no-repeat;
     background-position: center ;
     background-size: cover;
     background-position: fixed; 
-
+    /* filter:drop-shadow(8px 8px 10px gray); */
 }
 
 .my_page{
@@ -75,6 +73,7 @@ body{
     cursor: pointer;
 
 }
+
  a {
     font-family: "Montserrat", "Quicksand", sans-serif;
     color: turquoise;
@@ -85,7 +84,7 @@ body{
     a:hover {
     transform: scale(1.02) translateY(-4px);
     color: blue;
-  }
+}
 
 .container {
     display: grid;
@@ -96,28 +95,82 @@ body{
     margin-top: 130px;
 }
  
-.my_image {
+.auto-slider {
     grid-row: 1;
     grid-column: 1;
     border:1px gray;
     border-radius: 150px ;
     cursor: pointer;
+    overflow: hidden;
+    width:300px;
+    height:300px;
 }
-h3{
+
+.auto-slider__content{
+    list-style: none;
+    display: flex;
+    animation-name: slide;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.auto-slider__content:hover {
+    animation-play-state: paused;
+
+}
+
+@keyframes slide {
+    10%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(-300px);
+    }
+    30%{
+        transform: translateX(-600px);
+    }
+    40%{
+        transform: translateX(-900px);
+    }
+    50%{
+        transform: translateX(-1200px);
+    }
+    60%{
+        transform: translateX(-1500px);
+    }
+    70%{
+        transform: translateX(-1800px);
+    }
+    80%{
+        transform: translateX(-2100px);
+    }
+    90%{
+        transform: translateX(-2400px);
+    }
+    100%{
+        transform: translateX(-2700px);
+    }
+    
+}
+
+h3 {
     font-family: "Montserrat", "Quicksand", sans-serif;
-    margin-left:25%;
+    margin-left:21%;
     cursor: pointer;
 }
+
 h3:hover {
-    transform: scale(1.02) translateY(-4px);
+    transform: scale(1.04) translateY(-4px);
     color: blue;
-  }
+}
+
 .my_links {
+    /* margin-top: 20px; */
     grid-row-start: 1;
     grid-column-start: 2;
     display:flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
    
 }  
@@ -134,27 +187,27 @@ h3:hover {
     user-select: none;
     vertical-align: top;
     white-space: nowrap;
-    /* will-change: box-shadow, transform; */
     transform-origin: center; 
     transition-duration: 100ms;
     font-weight: 500; 
-  }
+}
 
   .button:hover {
     box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
-    transform: scale(1.02) translateY(-4px);
+    transform: scale(1.05) translateY(-4px);
     color: blue;
-  }
-    .button:active {
+}
+
+ .button:active {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
     transform: scale(0.98) translateY(-2px);
-  }
+}
  
 .social-media{
     display: inline-flex;
     margin-top: 10px;
 }
-.social_links{
+.social_links {
     padding:3px;
     
 }

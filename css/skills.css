@@ -44,26 +44,3 @@
     right:10px;
     cursor: pointer;
 }
-/* .skills-box{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* text-align: center;  */
-    /* border: 2px solid turquoise;
-    border-radius: .5em; 
-    box-sizing: border-box; 
-    height: 15em;
-    margin: .9em; 
-    position: relative; 
-    width: 15em;
-    box-shadow: 0 2rem 2rem rgba(0,0,0,0.3);
-    color: black; 
-    display: flex;    
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center; 
-    padding: 10px;
-    cursor: pointer;
-}  
-
