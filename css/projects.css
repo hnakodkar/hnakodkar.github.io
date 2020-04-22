@@ -38,12 +38,12 @@
     align-items: center;
     padding: 10px;
     cursor: pointer;
-}
+} 
 .project-img{
     border:1px solid light gray;
     border-radius: 25px ;
 }
-a{
+a {
     color:turquoise;
     font-size: 22px;
     font-weight: 500;
