@@ -1,5 +1,5 @@
 
-.project-popup-wrapper {
+.projects-holder {
     background: rgba(0,0,0,0.5);
     top: 0;
     left:0;
@@ -10,13 +10,6 @@
     grid-template-columns: 1fr 1fr 1fr;
 } 
 
- .popup-close{
-    position: absolute;
-    top:5px;
-    right:8px;
-    cursor: pointer;
-
-} 
 .project-box {
     background-color: #fff;
     position: relative; 
@@ -31,18 +24,20 @@
     color: black; 
     display: flex;    
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
     cursor: pointer;
 }
 .project-img{
     border:1px solid light gray;
-    border-radius: 25px ;
+    border-radius: 25px;
+    margin-bottom: 5px;
 }
-a{
+
+a {
     color:turquoise;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     text-decoration: none;
     font-family: "Montserrat", "Quicksand", sans-serif;
