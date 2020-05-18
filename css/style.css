@@ -155,14 +155,14 @@ a:hover {
     
 }
 
-h3 {
+h2 {
     font-family: "Montserrat", "Quicksand", sans-serif;
     margin-left:21%;
     margin-top:5px;
     cursor: pointer;
 }
 
-h3:hover {
+h2:hover {
     transform: scale(1.04) translateY(-4px);
     color: blue;
 }
